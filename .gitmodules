@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:DesApp-2023c1-Grupo-2/PPS-2023c2-Gurpo2-equiv-front.git
+[submodule "backend"]
+	path = backend
+	url = git@github.com:DesApp-2023c1-Grupo-2/PPS-2023c2-Gurpo2-equiv-back.git
