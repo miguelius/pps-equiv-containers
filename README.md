@@ -12,7 +12,7 @@ El último contenedor se construye en dos etapas: la primera con node, corre el 
 
 Hubo que hacer cambios menores en la configuración de la app y el config de apiURL.
 
-## Instrucciones
+## Instrucciones
 
 Instalar docker para nuestro sistema operativo.
 
@@ -24,7 +24,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-## Ver los logs
+## Ver los logs
 
 ```
 docker-compose logs
