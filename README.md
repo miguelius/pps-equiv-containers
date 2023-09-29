@@ -19,6 +19,7 @@ Instalar docker para nuestro sistema operativo.
 ```
 git clone --recurse-submodules ESTE_REPO
 cd ESTE_REPO
+git submodule update --init --recursive --remote
 docker-compose build
 docker-compose up -d
 ```
