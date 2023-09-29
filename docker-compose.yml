@@ -19,7 +19,7 @@ services:
       retries: 5
   backend:
     build:
-      context: ./PPS-2023c2-Gurpo2-equiv-back
+      context: ./backend
       dockerfile: ../docker/node/Dockerfile
     #ports:
     #  - 3001:3001
@@ -40,14 +40,14 @@ services:
       retries: 10
   frontend:
     build:
-      context: ./PPS-2023c2-Gurpo2-equiv-front
+      context: ./frontend
       dockerfile: ../docker/node-build-a-nginx/Dockerfile
     depends_on:
       backend:
         condition: service_healthy
     environment:
       REACT_APP_API_URL: /api #http://backend:3001/api
-    volumes:
-      - ./PPS-2023c2-Gurpo2-equiv-front/:/app:rw
+    #volumes:
+    #  - ./PPS-2023c2-Gurpo2-equiv-front/:/app:rw
     ports:
       - 3000:80
