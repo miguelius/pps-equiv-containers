@@ -5,5 +5,5 @@
 
 [submodule "backend"]
 	path = backend
-	url = git@github.com:miguelius//PPS-2023c2-Gurpo2-equiv-back.git
+	url = git@github.com:miguelius/PPS-2023c2-Gurpo2-equiv-back.git
 	branch = sprint3-back-dev-dockerisado
