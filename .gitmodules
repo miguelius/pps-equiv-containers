@@ -1,7 +1,7 @@
 [submodule "frontend"]
 	path = frontend
-	url = git@github.com:miguelius/PPS-2023c2-Gurpo2-equiv-front.git#sprint3-front-dev-dockerisado
+	url = https://github.com/miguelius/PPS-2023c2-Gurpo2-equiv-front.git#sprint3-front-dev-dockerisado
 
 [submodule "backend"]
 	path = backend
-	url = git@github.com:miguelius/PPS-2023c2-Gurpo2-equiv-back.git#sprint3-back-dev-dockerisado
+	url = https://github.com/miguelius//PPS-2023c2-Gurpo2-equiv-back.git#sprint3-back-dev-dockerisado
