@@ -11,7 +11,7 @@ El último contenedor se construye en dos etapas: la primera con node, corre el 
 ## Cambios
 
 Hubo que hacer cambios menores en la configuración de la app y el config de apiURL.
- 
+
 ## Instrucciones
 
 Instalar docker para nuestro sistema operativo.
